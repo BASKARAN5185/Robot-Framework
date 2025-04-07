@@ -1,5 +1,7 @@
-Robot Framework Web Testing Project
-Project Description
+Robot Framework Web Testing Project :
+
+Project Description:
+
 This repository is a learning project dedicated to web UI testing using Robot Framework and the SeleniumLibrary. The goal of this project is to automate the testing of web applications through browser interaction and validation. It demonstrates how to write and execute test cases for web applications using Robot Framework, while also integrating the tests with GitHub Actions for continuous integration (CI).
 
 Project Features
