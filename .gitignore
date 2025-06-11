@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Robot Framework logs and reports
+*.log
+*.html
+*.xml
+*.tsv
+*.png
+*.jpg
+output.xml
+log.html
+report.html
+debug.log
+*.db
+*.csv
+
+# Robot Framework temp and result folders
+/results/
+/output/
+/reports/
+/.robot_cache/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Python virtual environment metadata
+*.egg-info/
+.eggs/
+
+# Test result caches
+.pytest_cache/
+.tox/
+.cache/
+
+# IntelliJ / PyCharm project files
+.idea/
+*.iml
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Other
+*.bak
+*.swp
