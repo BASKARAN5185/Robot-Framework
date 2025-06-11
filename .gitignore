@@ -1,55 +1,58 @@
-# Byte-compiled / optimized / DLL files
+# ───────────── Python Bytecode ─────────────
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Robot Framework logs and reports
+# ───────────── Robot Framework Logs & Reports ─────────────
 *.log
 *.html
 *.xml
 *.tsv
 *.png
 *.jpg
+*.db
+*.csv
 output.xml
 log.html
 report.html
 debug.log
-*.db
-*.csv
 
-# Robot Framework temp and result folders
-/results/
-/output/
-/reports/
-/.robot_cache/
+# ───────────── Robot Framework Output/Cache ─────────────
+output/
+results/
+reports/
+.robot_cache/
 
-# Environment files
+# ───────────── Python Virtual Environments ─────────────
 .env
 .venv/
-env/
 venv/
+env/
 ENV/
 
-# Python virtual environment metadata
+# ───────────── Python Packaging ─────────────
 *.egg-info/
 .eggs/
+dist/
+build/
 
-# Test result caches
+# ───────────── Test Cache ─────────────
 .pytest_cache/
 .tox/
 .cache/
+.nox/
 
-# IntelliJ / PyCharm project files
+# ───────────── IDEs: IntelliJ / PyCharm ─────────────
 .idea/
 *.iml
 
-# VS Code settings
+# ───────────── IDEs: VS Code ─────────────
 .vscode/
 
-# System files
+# ───────────── System Files ─────────────
 .DS_Store
 Thumbs.db
 
-# Other
+# ───────────── Editor / Backup Files ─────────────
 *.bak
 *.swp
